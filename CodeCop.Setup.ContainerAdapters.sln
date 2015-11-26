@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCop.Setup.Autofac", "CodeCop.Setup.ContainerAdapters\CodeCop.Setup.Autofac\CodeCop.Setup.Autofac.csproj", "{334DB093-48ED-47F3-91E6-D540A9213391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCop.Setup.Castle.Windsor", "CodeCop.Setup.ContainerAdapters\CodeCop.Setup.Castle.Windsor\CodeCop.Setup.Castle.Windsor.csproj", "{5E80371B-3CD3-43D9-82C8-8B2500B76818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCop.Setup.Ninject", "CodeCop.Setup.ContainerAdapters\CodeCop.Setup.Ninject\CodeCop.Setup.Ninject.csproj", "{1A1D9F6B-B99B-4066-B918-6613A810D0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCop.Setup.StructureMap", "CodeCop.Setup.ContainerAdapters\CodeCop.Setup.StructureMap\CodeCop.Setup.StructureMap.csproj", "{07783ABA-D12C-4C9F-8056-0CBC3AF177A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCop.Setup.Unity", "CodeCop.Setup.ContainerAdapters\CodeCop.Setup.Unity\CodeCop.Setup.Unity.csproj", "{F081455B-80BA-4DE2-8F67-F188AB499735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334DB093-48ED-47F3-91E6-D540A9213391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334DB093-48ED-47F3-91E6-D540A9213391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334DB093-48ED-47F3-91E6-D540A9213391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334DB093-48ED-47F3-91E6-D540A9213391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E80371B-3CD3-43D9-82C8-8B2500B76818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E80371B-3CD3-43D9-82C8-8B2500B76818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E80371B-3CD3-43D9-82C8-8B2500B76818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E80371B-3CD3-43D9-82C8-8B2500B76818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1D9F6B-B99B-4066-B918-6613A810D0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1D9F6B-B99B-4066-B918-6613A810D0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1D9F6B-B99B-4066-B918-6613A810D0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1D9F6B-B99B-4066-B918-6613A810D0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07783ABA-D12C-4C9F-8056-0CBC3AF177A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07783ABA-D12C-4C9F-8056-0CBC3AF177A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07783ABA-D12C-4C9F-8056-0CBC3AF177A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07783ABA-D12C-4C9F-8056-0CBC3AF177A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F081455B-80BA-4DE2-8F67-F188AB499735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F081455B-80BA-4DE2-8F67-F188AB499735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F081455B-80BA-4DE2-8F67-F188AB499735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F081455B-80BA-4DE2-8F67-F188AB499735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
