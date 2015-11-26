@@ -38,12 +38,5 @@ namespace CodeCop.Setup.Autofac
 
             builder.Update(this.container);
         }
-
-        public IEnumerable<object> ResolveAll(Type service)
-        {
-            var collectionType = typeof (IEnumerable<>).MakeGenericType(service);
-            var instances = this.container.Resolve(collectionType);
-            return ((IEnumerable<object>) instances) ?? Enumerable.Empty<object>();
-        }
     }
 }
